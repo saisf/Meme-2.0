@@ -164,7 +164,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func buttonsEnabling(enabled: Bool) {
         shareButton.isEnabled = enabled
-        cancelButton.isEnabled = enabled
     }
     
     func textFieldEnabling(enabled: Bool) {
