@@ -31,6 +31,7 @@ class EditMemedViewController: UIViewController {
 
     }
     override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(true)
         num = nil
     }
 
